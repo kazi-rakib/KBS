@@ -21,4 +21,9 @@ body {
 header {
   color: #454545;
   background: #FFF;
+
+  width: 95%;
+  margin: 0 auto;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
