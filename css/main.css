@@ -20,8 +20,9 @@ header {
   color: #454545;
   background: linear-gradient(
     to right bottom,
-    #65dfc920,
-    #6cdbeb80
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 255, 255, 0.1)
   );
   font-weight: 900;
   width: 95%;
@@ -44,7 +45,11 @@ header p {
 
 main {
   color: #000;
-  background: #fff;
+  background: linear-gradient(
+    to top,
+    #65dfc920,
+    #6cdbebff
+  );
   width: 95%;
   margin: auto;
   border-radius: 5px;
