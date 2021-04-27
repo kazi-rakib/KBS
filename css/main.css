@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *,
 *::after,
 *::before {
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Pacifico', cursive, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
@@ -72,6 +74,7 @@ footer {
 }
 
 footer > section.copyright-info > a {
+  font-family: 'Pacifico', cursive;
   text-decoration: none;
   color: #00FFFF;
 }
